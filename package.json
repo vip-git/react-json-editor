@@ -1,10 +1,10 @@
 {
-  "name": "@dustingetz/react-json-editor",
-  "version": "0.3.0",
+  "name": "@dvibes-bot/react-json-editor",
+  "version": "0.1.0",
   "description": "react json editor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/prognostic-llc/react-json-editor"
+    "url": "https://github.com/vip-git/react-json-editor"
   },
   "license": "MIT",
   "scripts": {
@@ -14,16 +14,16 @@
   "main": "dist/react-json-editor.js",
   "jsnext:main": "src/react-json-editor.js",
   "devDependencies": {
-    "babel-core": "^5.8.22",
-    "babel-loader": "^5.3.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
     "css-loader": "^0.19.0",
-    "webpack": "^1.11.0",
     "style-loader": "^0.12.4",
-    "webpack-dev-server": "^1.10.1"
+    "webpack": "^1.11.0",
+    "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
-    "lodash": "^3.10.1",
-    "react": "^0.14.6",
+    "lodash": "4.17.5",
+    "react": "^16.0.0",
     "react-cursor": "2.0.0-alpha.11",
     "react-treeview": "^0.4.6"
   }
